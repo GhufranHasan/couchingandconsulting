@@ -45,16 +45,16 @@ const Header = () => {
             <ul className={`absolute top-10 left-0 bg-black text-white py-2 px-4 space-y-2 ${
                 showDropdown ? 'block' : 'hidden'
               }`}>
-              <li>
+              <li className="hover:bg-white hover:text-black">
                 <a href="#coaching">Coaching</a>
               </li>
-              <li>
+              <li className="hover:bg-white hover:text-black">
                 <a href="#consulting">Consulting</a>
               </li>
-              <li>
+              <li className="hover:bg-white hover:text-black">
                 <a href="#public-speaking">Public Speaking</a>
               </li>
-              <li>
+              <li className="hover:bg-white hover:text-black">
                 <a href="#state-of-city">State of City</a>
               </li>
             </ul>
