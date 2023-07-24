@@ -1,11 +1,12 @@
 import React from 'react';
 import VideoCard from '../components/videoCard';
+import Image from 'next/image';
 
 const PublicSpeaking: React.FC = () => {
   return (
     <div>
         <div className="relative text-black">
-            <img
+            <Image
                 src="/images/card6.jpg"
                 alt="Hero Image"
                 className="w-full h-64 object-cover opacity-70"

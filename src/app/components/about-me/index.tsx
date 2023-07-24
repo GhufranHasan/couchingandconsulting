@@ -1,6 +1,7 @@
 // components/About.tsx
 import React from 'react';
 import { navbarData } from '@/app/shared/LinkData';
+import Image from 'next/image';
 
 const About: React.FC = () => {
   return (
@@ -29,7 +30,7 @@ const About: React.FC = () => {
 
           {/* Second div with image */}
           <div className="w-full md:w-1/2 p-4 flex items-center justify-center">
-            <img src="images/card2.jpg" alt="About Us" className="w-64 h-64 rounded-full" />
+            <Image src="images/card2.jpg" alt="About Us" className="w-64 h-64 rounded-full" />
           </div>
         </div>
       </div>

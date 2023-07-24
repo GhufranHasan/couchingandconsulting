@@ -1,6 +1,7 @@
 "use client";
 import React, { useState, useEffect, useRef } from 'react';
 import { logoImageLink, logoText, navbarData } from '../LinkData';
+import Image from 'next/image';
 import './header.css';
 
 const Header: React.FC = () => {
@@ -33,7 +34,7 @@ const Header: React.FC = () => {
       <div className="flex items-center justify-between py-4 px-16">
         {/* Logo */}
         <div className="flex items-center">
-          <img src={logoImageLink} alt="Logo" className="w-10 h-10 mr-2" />
+          <Image src={logoImageLink} alt="Logo" className="w-10 h-10 mr-2" width={200} height={200} />
           <span className="text-xl font-semibold">{logoText.toUpperCase()}</span>
         </div>
 

@@ -1,6 +1,7 @@
 // components/Footer.tsx
 import React from 'react';
 import { address, description, heading_title, logoImageLink, logoText, navbarData } from '../LinkData';
+import Image from 'next/image';
 
 const Footer = () => {
 
@@ -10,7 +11,7 @@ const Footer = () => {
         {/* First Section */}
         <div className="w-full sm:w-1/2 md:w-1/4 px-4">
           <div className="mb-4">
-            <img src={logoImageLink} alt="Footer Logo" className="w-32 mr-2" />
+            <Image src={logoImageLink} alt="Footer Logo" width={300} height={300} className="w-32 mr-2" />
             <span className="font-semibold text-lg">{logoText.toUpperCase()}</span>
           </div>
           <p className="text-sm">{description}</p>

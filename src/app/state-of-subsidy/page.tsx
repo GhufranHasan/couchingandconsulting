@@ -1,5 +1,6 @@
 import React from 'react';
 import BrandLogosRow from '../components/brand-logos';
+import Image from 'next/image';
 
 const SOS: React.FC = () => {
     const brandLogos = [
@@ -13,10 +14,12 @@ const SOS: React.FC = () => {
   return (
     <div>
         <div className="relative text-black">
-            <img
+            <Image
                 src="/images/card11.jpg"
                 alt="Hero Image"
                 className="w-full h-64 object-cover opacity-70"
+                width={800}
+                height={800}
             />
             <div className="absolute inset-0 flex py-32 justify-center">
                 <h2 className="text-white text-4xl font-bold">State of Subsidy</h2>

@@ -1,5 +1,6 @@
 "use client";
 import React, { useState } from 'react';
+import Image from 'next/image';
 
 const Carousel = () => {
   const [activeSlide, setActiveSlide] = useState(0);
@@ -20,7 +21,7 @@ const Carousel = () => {
             } duration-700 ease-in-out`}
             data-carousel-item
           >
-            <img
+            <Image
               src={`/images/carousel${index + 1}.jpg`}
               className="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
               alt={`Slide ${index + 1}`}

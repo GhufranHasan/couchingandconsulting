@@ -1,6 +1,6 @@
 // Header & Footer
 export const logoText = "Haroon Rana";
-export const logoImageLink = "logo.png"; 
+export const logoImageLink = "/logo.png"; 
 export const navbarData = [
   {
     label: "Home",
