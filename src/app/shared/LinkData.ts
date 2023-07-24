@@ -11,13 +11,13 @@ export const navbarData = [
     href: "/about",
   },
   {
-    label: "My course",
-    href: "/my-course",
+    label: "My Services",
+    // href: "/my-service",
     subItems: [
       { label: "Coaching", href: "/coaching" },
-      { label: "Consulting Products", href: "#consultingProducts" },
-      { label: "Public Speaking", href: "#public-speaking" },
-      { label: "State of Subsidy", href: "#state-of-subsidy" },
+      { label: "Consulting Products", href: "/consultingProducts" },
+      { label: "Public Speaking", href: "/public-speaking" },
+      { label: "State of Subsidy", href: "/state-of-subsidy" },
     ],
   },
   {
