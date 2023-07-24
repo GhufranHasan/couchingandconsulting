@@ -36,7 +36,7 @@ const projectsData: ProjectData[] = [
     id: 4,
     title: 'State of subsidy',
     image: '/images/card11.jpg',
-    link: '/stae-of-subsidy',
+    link: '/state-of-subsidy',
     description: 'Subsidy refers to a financial aid or support given by the government or a public entity to individuals, organizations, or specific industries. The purpose of a subsidy is to encourage or promote economic activities, support a particular group, stimulate growth in a certain sector, or provide assistance during times of economic hardship.'
   },
   // Add more project data as needed
