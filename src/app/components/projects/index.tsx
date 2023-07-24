@@ -30,14 +30,14 @@ const projectsData: ProjectData[] = [
     title: 'Public Speaking',
     image: '/images/card6.jpg',
     link: '/public-speaking',
-    description: 'lorem ipsum'
+    description: 'Effective public speaking involves several key skills, including the ability to organize thoughts and ideas, engage the audience, use effective body language and vocal techniques, and adapt to different speaking environments. It requires confidence, clarity, and the ability to connect with and hold the attention of the audience.'
   },
   {
     id: 4,
     title: 'State of subsidy',
     image: '/images/card11.jpg',
     link: '/stae-of-subsidy',
-    description: 'lorem ipsum'
+    description: 'Subsidy refers to a financial aid or support given by the government or a public entity to individuals, organizations, or specific industries. The purpose of a subsidy is to encourage or promote economic activities, support a particular group, stimulate growth in a certain sector, or provide assistance during times of economic hardship.'
   },
   // Add more project data as needed
 ];
