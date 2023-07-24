@@ -10,6 +10,8 @@ const PublicSpeaking: React.FC = () => {
                 src="/images/card6.jpg"
                 alt="Hero Image"
                 className="w-full h-64 object-cover opacity-70"
+                width={300}
+                height={300}
             />
             <div className="absolute inset-0 flex py-32 justify-center">
                 <h2 className="text-white text-4xl font-bold">Public Speaking</h2>
