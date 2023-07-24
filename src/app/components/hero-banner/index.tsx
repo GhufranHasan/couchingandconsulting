@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 import { callToAction, description, greeting, intro, navbarData } from '../../shared/LinkData';
@@ -8,13 +8,24 @@ const Hero = () => {
     <section className='flex bg-black h-1/4 text-white px-8 pt-8 justify-evenly items-center'>
       <div className='w-1/2'>
         <div className='mb-4'>
-          <p><span className='text-7xl'><span className='text-gray-500'>{greeting}&nbsp;</span>{intro}</span></p>
+          <p>
+            <span className='text-7xl'>
+              <span className='text-gray-500'>{greeting}&nbsp;</span>
+              {intro}
+            </span>
+          </p>
         </div>
         <div className='text-center w-3/4'>
           <p>{description}</p>
-          <div className='text-center mt-8'>
-            <p className='border border-white border-opacity-30 hover:border-opacity-70 transition'><Link className='underline-offset-4' href={navbarData[1].href}>{callToAction}</Link></p>
-          </div>
+          {navbarData[1].href && (
+            <div className='text-center mt-8'>
+              <p className='border border-white border-opacity-30 hover:border-opacity-70 transition'>
+                <Link className='underline-offset-4' href={navbarData[1].href}>
+                  {callToAction}
+                </Link>
+              </p>
+            </div>
+          )}
         </div>
       </div>
       <div>
@@ -23,7 +34,7 @@ const Hero = () => {
         </div>
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default Hero
+export default Hero;
