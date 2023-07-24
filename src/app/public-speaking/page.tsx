@@ -24,17 +24,17 @@ const PublicSpeaking: React.FC = () => {
         </div>
         <div className="bg-gray-500 py-24">
             <div></div>
-            <div className="flex justify-center mt-8 px-12">
+            <div className="flex justify-center mt-8 px-8">
                 <div className="w-1/2 mx-2">
-                    <video controls preload="metadata" className="w-7/12">
+                    <video controls preload="metadata" className="w-6/12 h-auto">
                         <source src="/videos/video1.mp4" type="video/mp4" />
-                            Your browser does not support the video tag.
+                        Your browser does not support the video tag.
                     </video>
                 </div>
                 <div className="w-1/2 mx-2">
-                    <video controls preload="metadata" className="w-7/12">
+                    <video controls preload="metadata" className="w-6/12">
                         <source src="/videos/video2.mp4" type="video/mp4" />
-                            Your browser does not support the video tag.
+                        Your browser does not support the video tag.
                     </video>
                 </div>
             </div>
