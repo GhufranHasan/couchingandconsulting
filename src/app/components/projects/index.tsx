@@ -12,39 +12,27 @@ interface ProjectData {
 const projectsData: ProjectData[] = [
   {
     id: 1,
-    title: 'Course 1',
+    title: 'Coaching',
     image: '/images/card4.jpg',
-    link: '/projects/project1',
+    link: '/coaching',
   },
   {
     id: 2,
-    title: 'Course 2',
+    title: 'Consulting Products',
     image: '/images/card5.jpg',
-    link: '/projects/project2',
+    link: '/consultingProducts',
   },
   {
     id: 3,
-    title: 'Course 3',
+    title: 'Public Speaking',
     image: '/images/card6.jpg',
-    link: '/projects/project1',
+    link: '/public-speaking',
   },
   {
     id: 4,
-    title: 'Course 4',
-    image: '/images/card7.jpg',
-    link: '/projects/project2',
-  },
-  {
-    id: 5,
-    title: 'Course 5',
-    image: '/images/card8.jpg',
-    link: '/projects/project1',
-  },
-  {
-    id: 6,
-    title: 'Course 6',
-    image: '/images/card9.jpg',
-    link: '/projects/project2',
+    title: 'State of subsidy',
+    image: '/images/card96.jpg',
+    link: '/stae-of-subsidy',
   },
   // Add more project data as needed
 ];
