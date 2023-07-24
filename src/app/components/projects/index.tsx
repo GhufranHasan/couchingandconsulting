@@ -16,14 +16,14 @@ const projectsData: ProjectData[] = [
     title: 'Coaching',
     image: '/images/card4.jpg',
     link: '/coaching',
-    description: 'lorem ipsum'
+    description: 'Once the goals are set and strengths and weaknesses are identified, the coach helps create a plan of action to bridge the gap between the current state and the desired state. This plan may include specific actions, milestones, and timelines.'
   },
   {
     id: 2,
     title: 'Consulting Products',
     image: '/images/card5.jpg',
     link: '/consultingProducts',
-    description: 'lorem ipsum'
+    description: 'Consulting engagements can take various forms, such as project-based work, long-term advisory relationships, or temporary staffing of specialized skills. Consultants may conduct research, analyze data, carry out assessments, develop business plans, facilitate workshops or training sessions, and assist in implementing recommended changes.'
   },
   {
     id: 3,
